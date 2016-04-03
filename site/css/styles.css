@@ -1,0 +1,91 @@
+body {
+	background-color: #fffffa;
+	font-family: 'muli', sans-serif;
+}
+
+#header-nav {
+	background-color: #3f2386;
+}
+
+.navbar-header h1 {
+	font-family: 'muli', sans-serif;
+	color: white;
+	font-size: 2em;
+	float: left;
+	padding: 5px
+}
+
+.navbar-nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 0px;
+	font-color: white;
+
+}
+.navbar-header a:hover, .navbar-header a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+  }
+
+hr {
+	margin: 0px;
+}
+
+#chbfsu {
+	background-color: #dcd2f3;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 15px;
+}
+@media (min-width: 992px) {
+.col-md-4 {
+	width: 29.33%;
+	margin: 2%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.col-sm-6 {
+	width: 46%;
+	margin: 2%;
+}
+
+.col-sm-12 {
+	width: 96%;
+	margin: 2%;
+}
+}
+
+@media (max-width: 769px) {
+	.col-xs-12 {
+	width: 96%;
+	margin: 2%;
+}}
+
+#food-types {
+	padding: 20px;
+}
+#main-content {
+	height: 1200px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    background-color: #b395ee;
+	color: black;
+	font-size: 1.6em
+}
+
+h3 {
+	margin: 10px;
+}
+
+li {
+	padding: 0px;
+	margin: 0px;
+}
